@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;800&display=swap");
+
+:root {
+  --bgColor: #e8e8e8;
+  --textColor: #4c4c4c;
+  --headingColor: #212121;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px 5px;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+#main {
+  background-color: var(--bgColor);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* TITLE OF TRIBUTE PAGE */
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding: 40px 0px;
+}
+
+#title h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--headingColor);
+}
+
+#title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--textColor);
+}
+
+/*====== IMAGE SECTION  =========*/
+
+#img-div {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+#img-caption {
+  width: 80%;
+  line-height: 1.5;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 18px;
+  color: var(--textColor);
+  font-weight: 400;
+}
+
+/* TRIBUTE INFO OF MAHATMA GANDHI */
+
+#tribute-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+
+#tribute-info h3 {
+  font-size: 22px;
+  color: var(--textColor);
+}
+
+#tribute-info ul {
+  padding: 10px;
+}
+
+#tribute-info ul li {
+  word-spacing: 5px;
+}
+
+#tribute-info p {
+  font-size: 22px;
+}
+
+#additionalInfo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#additionalInfo h4 {
+  font-size: 22px;
+  color: var(--textColor);
+  font-weight: 400;
+}
+
+#tribute-link {
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  #tribute-info {
+    width: 55%;
+  }
+}
+
+@media (max-width: 650px) {
+  #tribute-info {
+    width: 85%;
+  }
+}
